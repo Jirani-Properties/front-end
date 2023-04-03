@@ -28,12 +28,12 @@ const Root = () => {
 			styles={{
 				main: {
 					padding: '0px !important',
-					paddingTop: `${mediaQuery ? '50px' : '70px'} !important`,
+					paddingTop: `${mediaQuery ? '70px' : '70px'} !important`,
 				},
 			}}
 			header={
 				<Header
-					height={{ base: 50, md: 70 }}
+					height={{ base: 70, md: 70 }}
 					p='md'
 					sx={{
 						padding: '0px',
