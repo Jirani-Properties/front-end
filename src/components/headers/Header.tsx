@@ -1,10 +1,11 @@
 import { Button } from '@mantine/core';
 import { useReducer } from 'react';
+
 import { authLinksInterface, searchOptionsInterface } from '../../types';
 import CustomLinks from '../common/CustomLinks';
-import Logo from '../common/Logo';
-import Others from '../common/Others';
 import { ListingSearch } from '../search/Search';
+import Others from '../common/Others';
+import Logo from '../common/Logo';
 
 const MainHeader = ({ open }: Pick<authLinksInterface, 'open'>) => {
 	return (

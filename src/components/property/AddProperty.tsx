@@ -1,3 +1,4 @@
+import { useForm } from '@mantine/form';
 import {
 	Box,
 	Button,
@@ -9,7 +10,7 @@ import {
 	Textarea,
 	TextInput,
 } from '@mantine/core';
-import { useForm } from '@mantine/form';
+
 import FileWrapper from '../common/FileWrapper';
 import ForSale from './ForSale';
 

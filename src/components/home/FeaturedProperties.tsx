@@ -1,6 +1,7 @@
 import { Container, Grid, Title } from '@mantine/core';
-import Property from '../../pages/Properties';
+
 import { propertyInterface, tagsInterface } from '../../types';
+import Property from '../../pages/Properties';
 
 const FeaturedProperties = ({
 	propertyData,

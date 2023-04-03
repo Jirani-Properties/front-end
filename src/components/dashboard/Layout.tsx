@@ -1,10 +1,11 @@
 import { AppShell, Drawer } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import Logo from '../common/Logo';
+import { useState } from 'react';
+
 import DashboardHeader from './DashboardHeader';
 import DashboardNavbar from './DashboardNavbar';
+import Logo from '../common/Logo';
 
 const DashboardLayout = () => {
 	const [openHumbugger, setToggleHumbugger] = useState<boolean>(false);

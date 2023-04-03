@@ -1,6 +1,7 @@
-import { Grid, Select, Text, TextInput } from '@mantine/core';
 import { IconChevronDown, IconSearch } from '@tabler/icons-react';
+import { Grid, Select, Text, TextInput } from '@mantine/core';
 import { useEffect, useState } from 'react';
+
 import { categoryInterface, searchOptionsInterface } from '../../types';
 
 export const ListingSearch = ({

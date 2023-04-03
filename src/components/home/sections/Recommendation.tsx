@@ -1,5 +1,6 @@
 import { Button, Container, Grid, Title } from '@mantine/core';
 import { useNavigate } from 'react-router-dom';
+
 import { HouseCard } from '../../cards/Card';
 
 const Recommendation = () => {

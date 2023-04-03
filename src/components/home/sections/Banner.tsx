@@ -1,4 +1,5 @@
 import { BackgroundImage } from '@mantine/core';
+
 import { LandingSearch } from '../Search';
 
 const Banner = ({ mediaQuery }: { mediaQuery: boolean }) => (

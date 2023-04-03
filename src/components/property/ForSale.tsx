@@ -1,4 +1,5 @@
 import { NumberInput } from '@mantine/core';
+
 import { formPropInterface } from '../../types';
 
 const ForSale = ({ form }: formPropInterface) => {

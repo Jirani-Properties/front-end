@@ -1,4 +1,5 @@
 import { Grid } from '@mantine/core';
+
 import { ServiceCard } from '../../cards/Card';
 
 const Services = () => (

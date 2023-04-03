@@ -1,5 +1,6 @@
 import { Container, Grid, Text } from '@mantine/core';
 import { useEffect, useState } from 'react';
+
 import { categoryInterface, houseInterface, tagsInterface } from '../../types';
 import { HouseCard } from '../cards/Card';
 

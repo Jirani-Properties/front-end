@@ -1,4 +1,5 @@
 import { Container, Grid, Title, Text, BackgroundImage } from '@mantine/core';
+
 import Blog from '../common/Blog';
 
 const Blogs = () => (

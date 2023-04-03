@@ -8,8 +8,9 @@ import {
 	Title,
 } from '@mantine/core';
 import { IconChevronDown, IconSearch } from '@tabler/icons-react';
-import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+
 import { categoryInterface, searchOptionsInterface } from '../../types';
 
 export const Search = () => {

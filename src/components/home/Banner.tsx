@@ -1,4 +1,5 @@
 import { Text, Title } from '@mantine/core';
+
 import { Search } from './Search';
 
 import { BackgroundImage } from '@mantine/core';

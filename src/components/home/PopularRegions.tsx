@@ -1,6 +1,7 @@
 import { Container, Grid, Title } from '@mantine/core';
-import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+
 import { HouseCard } from '../cards/Card';
 
 const PopularRegion = () => {
