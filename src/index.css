@@ -1,0 +1,13 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+::-webkit-scrollbar {
+	background: #fff;
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #000;
+}
