@@ -5,6 +5,7 @@ import {
 	Drawer,
 	Header,
 	MediaQuery,
+	Text,
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { useState } from 'react';
@@ -66,6 +67,17 @@ const Root = () => {
 				padding='xl'
 				size='xs'>
 				<div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+					<Link
+						style={{
+							textTransform: 'capitalize',
+							textDecoration: 'none',
+							color: '#000',
+						}}
+						onClick={(e) => setToggleHumbugger((prev) => !prev)}
+						to={'/'}>
+						Home
+						<Divider />
+					</Link>
 					{HeaderLinks.map((item, index) => (
 						<Link
 							style={{
@@ -80,6 +92,20 @@ const Root = () => {
 							<Divider />
 						</Link>
 					))}
+
+					<Text
+						style={{
+							textTransform: 'capitalize',
+							textDecoration: 'none',
+							color: '#000',
+						}}
+						onClick={(e) => {
+							setToggleHumbugger((prev) => !prev);
+							open();
+						}}>
+						Signup / Login
+						<Divider />
+					</Text>
 				</div>
 			</Drawer>
 

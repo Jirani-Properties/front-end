@@ -23,7 +23,7 @@ const Listing = () => {
 				}}>
 				<Grid
 					sx={{
-						marginTop: '4px',
+						marginTop: '6px',
 						rowGap: '10px',
 						margin: '0px',
 					}}

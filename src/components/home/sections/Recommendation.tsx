@@ -15,9 +15,9 @@ const Recommendation = () => {
 				minHeight: '89.5vh',
 				background: '#fff',
 				paddingTop: '30px',
+				display: 'flex',
 				width: '100%',
 				color: '#000',
-				display: 'flex',
 			}}>
 			<div style={{}}>
 				<Title order={3} size={'h3'}>
